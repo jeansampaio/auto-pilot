@@ -11,7 +11,7 @@ spec:
   - git:
       files:
       - path: bootstrap/cluster-resources/*.json
-      repoURL: https://github.com/polinchw/auto-pilot.git
+      repoURL: git@github.com:jeansampaio/auto-pilot.git
       requeueAfterSeconds: 20
       revision: ""
       template:
@@ -41,7 +41,7 @@ spec:
       project: default
       source:
         path: bootstrap/cluster-resources/{{name}}
-        repoURL: https://github.com/polinchw/auto-pilot.git
+        repoURL: git@github.com:jeansampaio/auto-pilot.git
       syncPolicy:
         automated:
           allowEmpty: true
