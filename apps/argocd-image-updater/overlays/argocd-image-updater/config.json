@@ -4,7 +4,7 @@
   "destNamespace": "argocd",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/argocd-image-updater/overlays/argocd-image-updater",
-  "srcRepoURL": "https://github.com/polinchw/auto-pilot.git",
+  "srcRepoURL": "git@github.com:jeansampaio/auto-pilot.git",
   "srcTargetRevision": "",
   "labels": null,
   "annotations": null

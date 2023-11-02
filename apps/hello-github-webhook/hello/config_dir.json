@@ -4,7 +4,7 @@
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "hello-github-webhook",
-  "srcRepoURL": "https://github.com/polinchw/hello-github-webhook-cd.git",
+  "srcRepoURL": "git@github.com:jeansampaio/auto-pilot.git",
   "srcTargetRevision": "HEAD",
   "labels": null,
   "annotations": null,
