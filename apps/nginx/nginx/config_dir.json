@@ -4,7 +4,7 @@
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "nginx",
-  "srcRepoURL": "https://github.com/polinchw/nginx-cd.git",
+  "srcRepoURL": "git@github.com:jeansampaio/nginx-cd.git",
   "srcTargetRevision": "",
   "labels": null,
   "annotations": null,
